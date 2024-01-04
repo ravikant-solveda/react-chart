@@ -1,0 +1,33 @@
+.india{
+    background: linear-gradient(90deg, #ff9933, #ffffff, #138808);
+    color: transparent;
+    background-clip: text;
+    
+}
+
+.heart{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 100px;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+.heart::after,
+.heart::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.heart::after{
+    top: -50px;
+    
+}
+.heart::before{
+    left: -50px;
+}

@@ -1,0 +1,30 @@
+.login {
+    height: 85.6vh;
+    display: flex;
+  }
+  .left {
+    width: 50%;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .right {
+    background-color: green;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .leftContent {
+    height: 51vh;
+    width: 400px;
+    background-color: black;
+  }
+  
+  .rightContent {
+    height: 444px;
+    width: 400px;
+    background-color: black;
+  }
+  
